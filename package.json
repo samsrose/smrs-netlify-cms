@@ -1,0 +1,31 @@
+{
+  "name": "smrs-netlify-cms",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "export": "npm run build && next export"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/samsrose/smrs-netlify-cms.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/samsrose/smrs-netlify-cms/issues"
+  },
+  "homepage": "https://github.com/samsrose/smrs-netlify-cms#readme",
+  "dependencies": {
+    "next": "^9.1.3",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0"
+  },
+  "devDependencies": {
+    "frontmatter-markdown-loader": "^3.1.0"
+  }
+}
